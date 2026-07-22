@@ -88,3 +88,4 @@ class TransferCreateSchema(BaseModel):
     
 class TotalBalance(BaseModel):
     total_balance: Decimal
+    currency: CurrencyEnum
