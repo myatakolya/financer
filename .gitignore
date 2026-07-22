@@ -3,10 +3,15 @@
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
-__pycache__/
+__pycache__
+.pytest_cache
 *.py[cod]
 *$py.class
 
 .venv
 
+finance.db
 
+.coverage
+
+test.db
